@@ -1,0 +1,17 @@
+{C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_7/Fuentes/shifter4b_c.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_7/Fuentes/shifter4b_c.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shifter4b_c
+-- Compiling architecture shifter4b_c_arq of shifter4b_c
+
+} {} {}} {C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_7/Fuentes/shifter4b_c_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_7/Fuentes/shifter4b_c_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shifter4b_c_tb
+-- Compiling architecture shifter4b_c_tb_arq of shifter4b_c_tb
+
+} {} {}}

@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Simulacion
+Effd
+Z0 w1791147013
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_6/Simulacion
+Z4 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd.vhd
+Z5 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd.vhd
+l0
+L4 1
+V2<7hKOGaa`RoH@DV29ej43
+!s100 9XaRS@8I^P58kG70KjK`Y1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1791149164
+!i10b 1
+Z8 !s108 1791149164.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd.vhd|
+Z10 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Affd_arq
+R1
+R2
+DEx4 work 3 ffd 0 22 2<7hKOGaa`RoH@DV29ej43
+!i122 0
+l18
+L16 14
+VQXCeZ5e=jSM6@HWBjEN^z1
+!s100 4Xg=e[mOUI1h7KT;4hneS3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eshifter4b
+Z13 w1791148852
+R1
+R2
+!i122 1
+R3
+Z14 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_6/Fuentes/shifter4b.vhd
+Z15 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_6/Fuentes/shifter4b.vhd
+l0
+L4 1
+VTb48kTedmIY5NfPeb0O1Q1
+!s100 1@dgOFPi@32[QfY?gLYiX0
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_6/Fuentes/shifter4b.vhd|
+Z17 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_6/Fuentes/shifter4b.vhd|
+!i113 1
+R11
+R12
+Ashifter4b_arq
+R1
+R2
+DEx4 work 9 shifter4b 0 22 Tb48kTedmIY5NfPeb0O1Q1
+!i122 1
+l31
+L15 34
+VkCWzF<0]TnPlHS_5MPIRR1
+!s100 <IBn?CYm0JlHVn4R95AnR0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Eshifter4b_tb
+Z18 w1791149061
+R1
+R2
+!i122 2
+R3
+Z19 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_6/Fuentes/shifter4b_tb.vhd
+Z20 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_6/Fuentes/shifter4b_tb.vhd
+l0
+L4 1
+V;TEbO256<Y4BHXVMjBii<3
+!s100 Pa<hLh`7FlPQ0<m_?j1fR2
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_6/Fuentes/shifter4b_tb.vhd|
+!s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_6/Fuentes/shifter4b_tb.vhd|
+!i113 1
+R11
+R12
+Ashifter4b_tb_arq
+R1
+R2
+DEx4 work 12 shifter4b_tb 0 22 ;TEbO256<Y4BHXVMjBii<3
+!i122 2
+l27
+L7 34
+Vec]U74Z@8zYL80mcl:I]I0
+!s100 jV1@bNdUH:Ho4XI_5TXkk0
+R6
+32
+R7
+!i10b 1
+R8
+R21
+Z22 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_6/Fuentes/shifter4b_tb.vhd|
+!i113 1
+R11
+R12

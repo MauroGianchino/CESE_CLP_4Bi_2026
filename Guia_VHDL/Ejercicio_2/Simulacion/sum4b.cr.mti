@@ -1,0 +1,17 @@
+{C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sum1b
+-- Compiling architecture sum1b_arq of sum1b
+
+} {} {}} {C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Fuentes/sum4b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Fuentes/sum4b.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sum4b
+-- Compiling architecture sum4b_arq of sum4b
+
+} {} {}}

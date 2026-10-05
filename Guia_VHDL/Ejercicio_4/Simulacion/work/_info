@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_3/Simulacion
+Emux2x1
+Z0 w1791145210
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Simulacion
+Z4 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Fuentes/mux2x1.vhd
+Z5 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Fuentes/mux2x1.vhd
+l0
+L5 1
+VQ]9>e=GJn4Ho5ngfP@1n]1
+!s100 RXGDJ9;UE1>5fAWLIobcA0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1791145885
+!i10b 1
+Z8 !s108 1791145885.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Fuentes/mux2x1.vhd|
+Z10 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Fuentes/mux2x1.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Amux2x1_arq
+R1
+R2
+DEx4 work 6 mux2x1 0 22 Q]9>e=GJn4Ho5ngfP@1n]1
+!i122 0
+l17
+L16 5
+V@Y2CZT?Zo3DA83A3HC;d:3
+!s100 XK9_R@^WBP`PZU6]eVEPB0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux2x1_tb
+Z13 w1791145777
+R1
+R2
+!i122 1
+R3
+Z14 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Fuentes/mux2x1_tb.vhd
+Z15 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Fuentes/mux2x1_tb.vhd
+l0
+L4 1
+V5Qh<O5F1ikU8OIh?LEU863
+!s100 IJ>e3o`9TDNzF8S1R7m701
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Fuentes/mux2x1_tb.vhd|
+!s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Fuentes/mux2x1_tb.vhd|
+!i113 1
+R11
+R12
+Amux2x1_tb_arq
+R1
+R2
+DEx4 work 9 mux2x1_tb 0 22 5Qh<O5F1ikU8OIh?LEU863
+!i122 1
+l25
+L7 34
+Vb9k=XmF7CN;o9i:8IKCIC2
+!s100 ^C[a2]5]=FWZkZIjFc^H@3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+Z17 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Fuentes/mux2x1_tb.vhd|
+!i113 1
+R11
+R12

@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Simulacion
+Esum1b
+Z0 w1791136726
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z3 dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Simulacion
+Z4 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd
+Z5 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd
+l0
+L5 1
+V;F8QZP77aaUKi^jgnHK380
+!s100 CGVYm=0c9n97TE]NUhc2e2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1791142029
+!i10b 1
+Z8 !s108 1791142029.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd|
+!s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd|
+!i113 1
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1 CvgOpt 0
+Asum1b_arq
+R1
+R2
+DEx4 work 5 sum1b 0 22 ;F8QZP77aaUKi^jgnHK380
+!i122 2
+l18
+L17 5
+V:Idz65[T14CSjck0g8A:32
+!s100 JjJJC6OB54NlNi;:G0M;01
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd|
+!i113 1
+R10
+R11
+Esum4b
+Z13 w1791141950
+R1
+R2
+!i122 0
+R3
+Z14 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Fuentes/sum4b.vhd
+Z15 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Fuentes/sum4b.vhd
+l0
+L5 1
+V78JVTRRkjVf1lI9Mni^HO0
+!s100 M6gYXYbgGeQ:TNGJhH57Y1
+R6
+32
+Z16 !s110 1791142028
+!i10b 1
+Z17 !s108 1791142028.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Fuentes/sum4b.vhd|
+Z19 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Fuentes/sum4b.vhd|
+!i113 1
+R10
+R11
+Asum4b_arq
+R1
+R2
+DEx4 work 5 sum4b 0 22 78JVTRRkjVf1lI9Mni^HO0
+!i122 0
+l32
+L17 56
+V45U1<NioFB^:Zia5S?zU?1
+!s100 1>RcUCd5jRdo8YhNSlVSY3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R10
+R11
+Esum4b_tb
+Z20 w1791141908
+R1
+R2
+!i122 1
+R3
+Z21 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Fuentes/sum4b_tb.vhd
+Z22 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Fuentes/sum4b_tb.vhd
+l0
+L4 1
+V5zQ0>Q:DdAgZik[9Fe?3P3
+!s100 ?;L=X01fDD[F1JJT]n5Qz2
+R6
+32
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Fuentes/sum4b_tb.vhd|
+Z24 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_2/Fuentes/sum4b_tb.vhd|
+!i113 1
+R10
+R11
+Asum4b_tb_arq
+R1
+R2
+DEx4 work 8 sum4b_tb 0 22 5zQ0>Q:DdAgZik[9Fe?3P3
+!i122 1
+l28
+L7 46
+V:F@HdUmIE]QT:gYmk=6E60
+!s100 CJO>c^mVaD[4AoJmiU7A63
+R6
+32
+R7
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R10
+R11

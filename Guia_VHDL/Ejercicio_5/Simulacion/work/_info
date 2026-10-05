@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_4/Simulacion
+Effd
+Z0 w1791147013
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z3 dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Simulacion
+Z4 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd.vhd
+Z5 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd.vhd
+l0
+L4 1
+V2<7hKOGaa`RoH@DV29ej43
+!s100 9XaRS@8I^P58kG70KjK`Y1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1791149301
+!i10b 1
+Z8 !s108 1791149301.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd.vhd|
+Z10 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Affd_arq
+R1
+R2
+DEx4 work 3 ffd 0 22 2<7hKOGaa`RoH@DV29ej43
+!i122 2
+l18
+L16 14
+VQXCeZ5e=jSM6@HWBjEN^z1
+!s100 4Xg=e[mOUI1h7KT;4hneS3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Effd_tb
+Z13 w1791147456
+R1
+R2
+!i122 3
+R3
+Z14 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd_tb.vhd
+Z15 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd_tb.vhd
+l0
+L4 1
+V9HTNA2>NEN[[ze6EogXcG3
+!s100 10Cd0GAIA]]eFGKOH@h541
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd_tb.vhd|
+Z17 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_5/Fuentes/ffd_tb.vhd|
+!i113 1
+R11
+R12
+Affd_tb_arq
+R1
+R2
+Z18 DEx4 work 6 ffd_tb 0 22 9HTNA2>NEN[[ze6EogXcG3
+!i122 3
+l29
+Z19 L7 47
+Z20 VkF`EkSZE>`_jJ3:bACkMQ1
+Z21 !s100 ]WF2dKB1>6kHgI2DzInL`0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

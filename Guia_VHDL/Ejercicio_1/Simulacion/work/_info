@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Codigos/sum1b/Simulacion
+Esum1b
+Z0 w1791136726
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Simulacion
+Z4 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd
+Z5 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd
+l0
+L5 1
+V;F8QZP77aaUKi^jgnHK380
+!s100 CGVYm=0c9n97TE]NUhc2e2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1791138250
+!i10b 1
+Z8 !s108 1791138250.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd|
+Z10 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Asum1b_arq
+R1
+R2
+DEx4 work 5 sum1b 0 22 ;F8QZP77aaUKi^jgnHK380
+!i122 0
+l18
+L17 5
+V:Idz65[T14CSjck0g8A:32
+!s100 JjJJC6OB54NlNi;:G0M;01
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esum1b_tb
+Z13 w1791138135
+R1
+R2
+!i122 1
+R3
+Z14 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b_tb.vhd
+Z15 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b_tb.vhd
+l0
+L4 1
+Vm1JU;JC^LEM@@ABW3m_>02
+!s100 UUzkPlkmHeM2[ice`_j[[1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b_tb.vhd|
+!s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b_tb.vhd|
+!i113 1
+R11
+R12
+Asum1b_tb_arq
+R1
+R2
+DEx4 work 8 sum1b_tb 0 22 m1JU;JC^LEM@@ABW3m_>02
+!i122 1
+l26
+L7 36
+V1eY[;ikcjQ=a6mT9h30QO3
+!s100 <fYC9^jO2<:fOzDl601^K1
+R6
+32
+R7
+!i10b 1
+R8
+R16
+Z17 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/Guia_VHDL/Ejercicio_1/Fuentes/sum1b_tb.vhd|
+!i113 1
+R11
+R12
