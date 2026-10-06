@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/
+Emod_ppm
+Z0 w1791251618
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z4 dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Simulacion
+Z5 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm.vhd
+Z6 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm.vhd
+l0
+L36 1
+VIEBS4jHW@ZA_VV]@8KkZ73
+!s100 7;`b[@ldnQG]M>ZUGg`iH0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1791256348
+!i10b 1
+Z9 !s108 1791256348.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm.vhd|
+Z11 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Amod_ppm_arq
+R1
+R2
+R3
+DEx4 work 7 mod_ppm 0 22 IEBS4jHW@ZA_VV]@8KkZ73
+!i122 0
+l66
+L54 87
+V[IV;U28ESaY^R_BV[V;g63
+!s100 YnP=iB]g;LPWW5=Yld0iL0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emod_ppm_tb
+Z14 w1791254877
+R2
+R3
+!i122 1
+R4
+Z15 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd
+Z16 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd
+l0
+L4 1
+VCk@?9Wg:1=D9F[diD8Gk]3
+!s100 `D]bk02XW@zOC72Ml:J0=2
+R7
+32
+Z17 !s110 1791256349
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd|
+!s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd|
+!i113 1
+R12
+R13
+Amod_ppm_tb_arq
+R2
+R3
+DEx4 work 10 mod_ppm_tb 0 22 Ck@?9Wg:1=D9F[diD8Gk]3
+!i122 1
+l34
+L7 50
+VZddP8m^EXg[RBQ1HfZ18g1
+!s100 mI>lQeooZZbWDLf>Zo3fi1
+R7
+32
+R17
+!i10b 1
+R9
+R18
+Z19 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd|
+!i113 1
+R12
+R13

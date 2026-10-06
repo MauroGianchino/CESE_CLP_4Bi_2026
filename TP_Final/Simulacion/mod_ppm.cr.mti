@@ -1,0 +1,18 @@
+{C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mod_ppm
+-- Compiling architecture mod_ppm_arq of mod_ppm
+
+} {} {}} {C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mod_ppm_tb
+-- Compiling architecture mod_ppm_tb_arq of mod_ppm_tb
+
+} {} {}}
