@@ -10,23 +10,23 @@ z2
 cModel Technology
 dE:/
 Emod_ppm
-Z0 w1791251618
+Z0 w1791748629
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 0
+!i122 24
 Z4 dC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Simulacion
 Z5 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm.vhd
 Z6 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm.vhd
 l0
-L36 1
-VIEBS4jHW@ZA_VV]@8KkZ73
-!s100 7;`b[@ldnQG]M>ZUGg`iH0
+L38 1
+VJFDda_S0M?DoB8d^fT2F@2
+!s100 WS7KeRNYPV9K2c[ekobVk2
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1791256348
+Z8 !s110 1791752653
 !i10b 1
-Z9 !s108 1791256348.000000
+Z9 !s108 1791752653.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm.vhd|
 Z11 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm.vhd|
 !i113 1
@@ -36,12 +36,12 @@ Amod_ppm_arq
 R1
 R2
 R3
-DEx4 work 7 mod_ppm 0 22 IEBS4jHW@ZA_VV]@8KkZ73
-!i122 0
-l66
-L54 87
-V[IV;U28ESaY^R_BV[V;g63
-!s100 YnP=iB]g;LPWW5=Yld0iL0
+DEx4 work 7 mod_ppm 0 22 JFDda_S0M?DoB8d^fT2F@2
+!i122 24
+l68
+L56 87
+VV^7M;nTCXIhAQK>Z[4BmU0
+!s100 `VOQ3UobEY^J`lk1oTdDb0
 R7
 32
 R8
@@ -52,44 +52,167 @@ R11
 !i113 1
 R12
 R13
-Emod_ppm_tb
-Z14 w1791254877
+Emod_ppm_tb1
+Z14 w1791742694
 R2
 R3
-!i122 1
+!i122 20
 R4
-Z15 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd
-Z16 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd
+Z15 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb1.vhd
+Z16 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb1.vhd
 l0
 L4 1
-VCk@?9Wg:1=D9F[diD8Gk]3
-!s100 `D]bk02XW@zOC72Ml:J0=2
+VCN=0ni[GQkV61:@bbNcMW2
+!s100 `_M`>E3iA1?Mb]9fJ=<kI3
 R7
 32
-Z17 !s110 1791256349
+Z17 !s110 1791746166
 !i10b 1
-R9
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd|
-!s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd|
+Z18 !s108 1791746166.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb1.vhd|
+Z20 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb1.vhd|
 !i113 1
 R12
 R13
-Amod_ppm_tb_arq
+Amod_ppm_tb1_arq
 R2
 R3
-DEx4 work 10 mod_ppm_tb 0 22 Ck@?9Wg:1=D9F[diD8Gk]3
-!i122 1
+DEx4 work 11 mod_ppm_tb1 0 22 CN=0ni[GQkV61:@bbNcMW2
+!i122 20
 l34
 L7 50
-VZddP8m^EXg[RBQ1HfZ18g1
-!s100 mI>lQeooZZbWDLf>Zo3fi1
+Vn:n1118<H]WzWMe2931gl2
+!s100 HH5?@4e2[]Rl;B1k4FQYH3
 R7
 32
 R17
 !i10b 1
-R9
 R18
-Z19 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb.vhd|
+R19
+R20
+!i113 1
+R12
+R13
+Emod_ppm_tb2
+Z21 w1791742700
+R2
+R3
+!i122 21
+R4
+Z22 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb2.vhd
+Z23 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb2.vhd
+l0
+L4 1
+VeCTeB92I3m[j1cnAZ>0aO3
+!s100 AgeiL^kMSZj=2b[CXQ[Sd3
+R7
+32
+R17
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb2.vhd|
+Z25 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb2.vhd|
+!i113 1
+R12
+R13
+Amod_ppm_tb2_arq
+R2
+R3
+DEx4 work 11 mod_ppm_tb2 0 22 eCTeB92I3m[j1cnAZ>0aO3
+!i122 21
+l34
+L7 55
+VcA:Tdo[9UcmUO=gRz4Zje2
+!s100 FA:XkDgnkE>aW<lbfo5?10
+R7
+32
+R17
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R12
+R13
+Emod_ppm_tb3
+Z26 w1791745723
+R2
+R3
+!i122 22
+R4
+Z27 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb3.vhd
+Z28 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb3.vhd
+l0
+L4 1
+Vml77^`257[CYoh[=FVO9i2
+!s100 EXN9ekMld[X_^E0VH:j4P0
+R7
+32
+R17
+!i10b 1
+R18
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb3.vhd|
+Z30 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb3.vhd|
+!i113 1
+R12
+R13
+Amod_ppm_tb3_arq
+R2
+R3
+DEx4 work 11 mod_ppm_tb3 0 22 ml77^`257[CYoh[=FVO9i2
+!i122 22
+l34
+L7 51
+V6X1z<4CUa?KE?R1aZii=:0
+!s100 Rjhf`EPEOh2bT_h?:`0`N3
+R7
+32
+R17
+!i10b 1
+R18
+R29
+R30
+!i113 1
+R12
+R13
+Emod_ppm_tb4
+Z31 w1791745838
+R2
+R3
+!i122 23
+R4
+Z32 8C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb4.vhd
+Z33 FC:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb4.vhd
+l0
+L4 1
+V<Z7=WJYn:VR7:<ab5AHz@2
+!s100 =l6I9F4^hk4Gmlb=DGL]E1
+R7
+32
+R17
+!i10b 1
+R18
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb4.vhd|
+Z35 !s107 C:/Users/Mauro/Desktop/CESE/Bimestre 4/CLP/CESE_CLP_4Bi_2026/TP_Final/Fuentes/mod_ppm_tb4.vhd|
+!i113 1
+R12
+R13
+Amod_ppm_tb4_arq
+R2
+R3
+DEx4 work 11 mod_ppm_tb4 0 22 <Z7=WJYn:VR7:<ab5AHz@2
+!i122 23
+l34
+L7 52
+VGKU4;o3kc:BSK=CaFcS5b1
+!s100 JTW=_:8;QaWJSUSCiVMDi0
+R7
+32
+R17
+!i10b 1
+R18
+R34
+R35
 !i113 1
 R12
 R13

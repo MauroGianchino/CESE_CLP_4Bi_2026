@@ -7,17 +7,17 @@
 --     Modulador PPM. Recibe un byte (0 a 255) del receptor UART y genera una
 --     trama periodica de NUM_SLOTS ranuras de CYCLES_PER_SLOT ciclos cada una.
 --     ppm_o vale '1' durante la ranura cuyo numero es igual al byte recibido
---     (ancho de pulso w = ranura). La ultima ranura de la trama es de guarda:
---     el pulso nunca cae ahi.
+--     (ancho de pulso w = ranura). No hay ranura de guarda: el byte 255 usa
+--     la ultima ranura de la trama.
 --     Cada byte genera un unico pulso: si al comenzar una trama no hay un byte
 --     nuevo esperando, la trama va vacia (sin pulso).
 --     sync_o sube al comienzo de cada trama (haya pulso o no) y se mantiene
 --     en '1' durante W_SYNC ciclos de clock. Sirve de referencia de tiempo.
 --
 --  Parameters:
---     CYCLES_PER_SLOT : ciclos de clock por ranura (10 us a 10 MHz = 100)
---     NUM_SLOTS       : 256 posiciones + 1 ranura de guarda = 257
---     W_SYNC          : ciclos de clock que dura sync_o en '1' (por defecto 10)
+--     CYCLES_PER_SLOT : ciclos de clock por ranura (10 us a 125 MHz = 1250)
+--     NUM_SLOTS       : una ranura por cada valor de byte = 256
+--     W_SYNC          : ciclos de clock que dura sync_o en '1' (1 us a 125 MHz = 125)
 --
 --  Notes:
 --     El byte se captura en el flanco de subida de rx_data_rdy_i. Si ya hay un
@@ -26,6 +26,8 @@
 --     de la trama siguiente, para que ninguna trama tenga dos pulsos o ninguno.
 --     ppm_o y sync_o salen registradas: aparecen 1 ciclo de clock despues de
 --     que arranca la ranura. Reset sincronico, activo en alto.
+--     Sin ranura de guarda, si en tramas consecutivas se usan el byte 255 y
+--     el byte 0, los dos pulsos quedan pegados y se ven como uno solo.
 -------------------------------------------------------------------------------
 library IEEE;
 use IEEE.std_logic_1164.all;
@@ -35,9 +37,9 @@ use IEEE.numeric_std.all;
 
 entity mod_ppm is
     generic(
-		CYCLES_PER_SLOT: positive := 100; --ancho de cada ranura expresado en ciclos de clock. ancho = CYCLES * (1/fclock)
-		NUM_SLOTS: positive := 257; -- cantidad de ranuras dentro de la trama
-        W_SYNC: positive := 10 --cantidad de ciclos de clock que dura en 1 el pin de sincronismo al comienzo de cada trama
+		CYCLES_PER_SLOT: positive := 1250; --ancho de cada ranura expresado en ciclos de clock. ancho = CYCLES * (1/fclock)
+		NUM_SLOTS: positive := 256; -- cantidad de ranuras dentro de la trama
+        W_SYNC: positive := 125 --cantidad de ciclos de clock que dura en 1 el pin de sincronismo al comienzo de cada trama
 
 	);
 	port(

@@ -1,0 +1,61 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity mod_ppm_tb2_secuencia is
+end;
+
+architecture mod_ppm_tb2_secuencia_arq of mod_ppm_tb2_secuencia is
+
+    -- Declaracion de senales de prueba
+        signal clk_tb: std_logic := '0'; --clock
+		signal rst_tb: std_logic := '1'; --señal de reset que empieza en 1 para dar valores inciales
+		signal rx_data_tb: std_logic_vector(7 downto 0) := "00000000"; --vector de entrada con los 8 bits de la uart
+		signal rx_data_rdy_tb: std_logic := '0'; --señal de ok de data de la uart
+		signal ppm_tb: std_logic; --pin de salida con la modulacion ppm
+        signal sync_tb: std_logic; -- pin que indica comienzo de trama, es para sincronizar
+
+    -- Declaracion del componente a probar
+    component mod_ppm is
+        generic(
+            CYCLES_PER_SLOT: positive := 100; -- ciclos de clock por ranura
+            NUM_SLOTS: positive := 257; -- cantidad de ranuras de la trama
+            W_SYNC: positive := 10 -- ciclos de clock que dura sync_o en 1
+        );
+        port(
+            clk_i: in std_logic; -- clock
+            rst_i: in std_logic; -- reset
+            rx_data_i: in std_logic_vector(7 downto 0); -- byte recibido por la uart
+            rx_data_rdy_i: in std_logic; -- byte valido
+            ppm_o: out std_logic; -- salida ppm
+            sync_o: out std_logic -- salida de sincronismo
+        );
+    end component;
+
+begin
+    clk_tb <= not clk_tb after 50 ns; --periodo de 100ns
+    rst_tb <= '0' after 200 ns;
+    -- un byte por trama, con los valores de las 4 ranuras: 0, 1, 2 y 3
+    rx_data_tb <= "00000000" after 800 ns, "00000001" after 2400 ns, "00000010" after 4000 ns, "00000011" after 5600 ns;
+    -- rdy en alto durante 4 ciclos, 100 ns despues de cada cambio de dato
+    rx_data_rdy_tb <= '1' after 900 ns, '0' after 1300 ns,
+                      '1' after 2500 ns, '0' after 2900 ns,
+                      '1' after 4100 ns, '0' after 4500 ns,
+                      '1' after 5700 ns, '0' after 6100 ns;
+
+
+    DUT: mod_ppm
+        generic map(
+            CYCLES_PER_SLOT => 4,
+            NUM_SLOTS => 4,
+            W_SYNC => 1
+        )
+        port map(
+            clk_i => clk_tb,
+            rst_i => rst_tb,
+            rx_data_i => rx_data_tb,
+            rx_data_rdy_i => rx_data_rdy_tb,
+            ppm_o => ppm_tb,
+            sync_o => sync_tb
+        );
+
+end;

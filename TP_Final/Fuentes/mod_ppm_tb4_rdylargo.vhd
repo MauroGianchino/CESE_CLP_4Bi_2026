@@ -1,10 +1,10 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity mod_ppm_tb is
+entity mod_ppm_tb4_rdylargo is
 end;
 
-architecture mod_ppm_tb_arq of mod_ppm_tb is
+architecture mod_ppm_tb4_rdylargo_arq of mod_ppm_tb4_rdylargo is
 
     -- Declaracion de senales de prueba
         signal clk_tb: std_logic := '0'; --clock
@@ -34,15 +34,17 @@ architecture mod_ppm_tb_arq of mod_ppm_tb is
 begin
     clk_tb <= not clk_tb after 50 ns; --periodo de 100ns
     rst_tb <= '0' after 200 ns;
-    rx_data_tb <= "00001010" after 900 ns; -- byte con valor 10
-    rx_data_rdy_tb <= '1' after 1000 ns, '0' after 1400 ns; -- rdy en alto durante 4 ciclos
+    -- Test B: rdy en alto 87 ciclos (el byte se captura una sola vez)
+    -- estimulos a completar
+    rx_data_tb <= "00000011" after 900 ns;
+    rx_data_rdy_tb <= '1' after 1000 ns, '0' after 9700 ns;
 
 
     DUT: mod_ppm
         generic map(
-            CYCLES_PER_SLOT => 4,
-            NUM_SLOTS => 12,
-            W_SYNC => 2
+            CYCLES_PER_SLOT => 4, --cada trama dura 3200 ns
+            NUM_SLOTS => 8,
+            W_SYNC => 1
         )
         port map(
             clk_i => clk_tb,
