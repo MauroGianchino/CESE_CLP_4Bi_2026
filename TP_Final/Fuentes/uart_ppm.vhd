@@ -1,7 +1,6 @@
 -------------------------------------------------------------------------------
 --  Module   : uart_ppm.vhd
 --  Parent   : uart_top
---  Children : meta_harden.vhd uart_rx.vhd mod_ppm.vhd
 --
 --  Description:
 --     Une el receptor UART con el modulador PPM. El byte recibido por rxd_pin

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.28)  12 OCT 2026 03:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.28)  13 OCT 2026 00:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,7 +722,7 @@ Package hyperref Info: Link coloring OFF on input line 80.
 \@outlinefile=\write3
 \openout3 = `informe.out'.
 
-<fig/logo_fiuba.png, id=131, 814.54312pt x 271.76532pt>
+<fig/logo_fiuba.png, id=135, 814.54312pt x 271.76532pt>
 File: fig/logo_fiuba.png Graphic file (type png)
 <use fig/logo_fiuba.png>
 Package pdftex.def Info: fig/logo_fiuba.png  used on input line 85.
@@ -791,131 +791,148 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120 \newpage
+l.119 \newpage
                [1{C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
 lm/lm-rm.enc}{C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/l
 m-mathit.enc}]
 (C:\Users\Mauro\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd) [2{C:/Use
-rs/Mauro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/
-Mauro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-<fig/caja_negra_top.png, id=193, 568.7649pt x 295.94565pt>
+rs/Mauro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Use
+rs/Mauro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+<fig/caja_negra_top.png, id=200, 568.7649pt x 295.94565pt>
 File: fig/caja_negra_top.png Graphic file (type png)
 <use fig/caja_negra_top.png>
-Package pdftex.def Info: fig/caja_negra_top.png  used on input line 194.
+Package pdftex.def Info: fig/caja_negra_top.png  used on input line 197.
 (pdftex.def)             Requested size: 364.19667pt x 189.5039pt.
-<fig/trama.png, id=194, 859.65166pt x 339.669pt>
+ [3 <./fig/caja_negra_top.png>]
+<fig/trama.png, id=208, 859.65166pt x 339.669pt>
 File: fig/trama.png Graphic file (type png)
 <use fig/trama.png>
-Package pdftex.def Info: fig/trama.png  used on input line 230.
+Package pdftex.def Info: fig/trama.png  used on input line 233.
 (pdftex.def)             Requested size: 455.24411pt x 179.87859pt.
- [3 <./fig/caja_negra_top.png>]
-<fig/diagrama_bloques.png, id=204, 1076.46165pt x 556.11765pt>
+<fig/diagrama_bloques.png, id=209, 1076.46165pt x 556.11765pt>
 File: fig/diagrama_bloques.png Graphic file (type png)
 <use fig/diagrama_bloques.png>
-Package pdftex.def Info: fig/diagrama_bloques.png  used on input line 249.
-(pdftex.def)             Requested size: 455.24411pt x 235.18858pt.
+Package pdftex.def Info: fig/diagrama_bloques.png  used on input line 252.
+(pdftex.def)             Requested size: 341.43307pt x 176.39143pt.
  [4 <./fig/trama.png> <./fig/diagrama_bloques.png>]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 282.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 285.
 
 [5] [6]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 354.
-<fig/sim_tb1.png, id=228, 1290.32062pt x 832.61063pt>
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 357.
+<fig/sim_tb1.png, id=235, 1290.32062pt x 832.61063pt>
 File: fig/sim_tb1.png Graphic file (type png)
 <use fig/sim_tb1.png>
-Package pdftex.def Info: fig/sim_tb1.png  used on input line 362.
+Package pdftex.def Info: fig/sim_tb1.png  used on input line 363.
 (pdftex.def)             Requested size: 432.48051pt x 279.06921pt.
  [7 <./fig/sim_tb1.png>]
-<fig/sim_tb2.png, id=236, 1291.82625pt x 834.11626pt>
+<fig/sim_tb2.png, id=243, 1291.82625pt x 834.11626pt>
 File: fig/sim_tb2.png Graphic file (type png)
 <use fig/sim_tb2.png>
-Package pdftex.def Info: fig/sim_tb2.png  used on input line 380.
+Package pdftex.def Info: fig/sim_tb2.png  used on input line 381.
 (pdftex.def)             Requested size: 432.48051pt x 279.24295pt.
  [8 <./fig/sim_tb2.png>]
-<fig/sim_tb3.png, id=244, 1291.82625pt x 834.11626pt>
+<fig/sim_tb3.png, id=251, 1291.82625pt x 834.11626pt>
 File: fig/sim_tb3.png Graphic file (type png)
 <use fig/sim_tb3.png>
-Package pdftex.def Info: fig/sim_tb3.png  used on input line 397.
+Package pdftex.def Info: fig/sim_tb3.png  used on input line 398.
 (pdftex.def)             Requested size: 432.48051pt x 279.24295pt.
  [9 <./fig/sim_tb3.png>]
-<fig/sim_tb4.png, id=252, 1290.32062pt x 832.61063pt>
+<fig/sim_tb4.png, id=259, 1290.32062pt x 832.61063pt>
 File: fig/sim_tb4.png Graphic file (type png)
 <use fig/sim_tb4.png>
 Package pdftex.def Info: fig/sim_tb4.png  used on input line 413.
 (pdftex.def)             Requested size: 432.48051pt x 279.06921pt.
 [10 <./fig/sim_tb4.png>]
-<fig/sim_tb5.png, id=260, 1290.32062pt x 832.61063pt>
+<fig/sim_tb5.png, id=267, 1290.32062pt x 832.61063pt>
 File: fig/sim_tb5.png Graphic file (type png)
 <use fig/sim_tb5.png>
 Package pdftex.def Info: fig/sim_tb5.png  used on input line 430.
 (pdftex.def)             Requested size: 432.48051pt x 279.06921pt.
+<fig/sim_tb5_2.png, id=269, 1291.82625pt x 834.11626pt>
+File: fig/sim_tb5_2.png Graphic file (type png)
+<use fig/sim_tb5_2.png>
+Package pdftex.def Info: fig/sim_tb5_2.png  used on input line 439.
+(pdftex.def)             Requested size: 432.48051pt x 279.24295pt.
  [11 <./fig/sim_tb5.png>]
-<fig/vivado_timing.png, id=269, 688.82344pt x 204.01219pt>
+<fig/img1_bloque_ppm.png, id=279, 1030.60031pt x 371.88937pt>
+File: fig/img1_bloque_ppm.png Graphic file (type png)
+<use fig/img1_bloque_ppm.png>
+Package pdftex.def Info: fig/img1_bloque_ppm.png  used on input line 464.
+(pdftex.def)             Requested size: 386.96027pt x 139.63408pt.
+ [12 <./fig/sim_tb5_2.png>]
+<fig/img2_bloques_ppm.png, id=288, 1345.27594pt x 311.66437pt>
+File: fig/img2_bloques_ppm.png Graphic file (type png)
+<use fig/img2_bloques_ppm.png>
+Package pdftex.def Info: fig/img2_bloques_ppm.png  used on input line 471.
+(pdftex.def)             Requested size: 455.24411pt x 105.46513pt.
+<fig/vivado_timing.png, id=291, 688.82344pt x 204.01219pt>
 File: fig/vivado_timing.png Graphic file (type png)
 <use fig/vivado_timing.png>
-Package pdftex.def Info: fig/vivado_timing.png  used on input line 474.
+Package pdftex.def Info: fig/vivado_timing.png  used on input line 500.
 (pdftex.def)             Requested size: 364.19667pt x 107.86444pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 491.
+(caption)                particular \caption on input line 517.
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 493.
+(Font)              <9> on input line 519.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 509.
+(caption)                particular \caption on input line 535.
 See the caption package documentation for explanation.
 
-<fig/vivado_util.png, id=273, 395.97937pt x 225.09094pt>
+<fig/vivado_util.png, id=295, 395.97937pt x 225.09094pt>
 File: fig/vivado_util.png Graphic file (type png)
 <use fig/vivado_util.png>
-Package pdftex.def Info: fig/vivado_util.png  used on input line 528.
+Package pdftex.def Info: fig/vivado_util.png  used on input line 554.
 (pdftex.def)             Requested size: 250.38564pt x 142.3301pt.
-[12 <./fig/vivado_timing.png> <./fig/vivado_util.png>]
-<fig/banco.jpeg, id=293, 1284.8pt x 963.6pt>
+[13 <./fig/img1_bloque_ppm.png> <./fig/img2_bloques_ppm.png> <./fig/vivado_timi
+ng.png>]
+<fig/banco.jpeg, id=310, 1284.8pt x 963.6pt>
 File: fig/banco.jpeg Graphic file (type jpg)
 <use fig/banco.jpeg>
-Package pdftex.def Info: fig/banco.jpeg  used on input line 564.
+Package pdftex.def Info: fig/banco.jpeg  used on input line 590.
 (pdftex.def)             Requested size: 273.14923pt x 204.86154pt.
-<fig/hw_periodo.png, id=295, 956.07187pt x 166.37157pt>
+ [14 <./fig/vivado_util.png>]
+<fig/hw_periodo.png, id=324, 956.07187pt x 166.37157pt>
 File: fig/hw_periodo.png Graphic file (type png)
 <use fig/hw_periodo.png>
-Package pdftex.def Info: fig/hw_periodo.png  used on input line 581.
+Package pdftex.def Info: fig/hw_periodo.png  used on input line 607.
 (pdftex.def)             Requested size: 455.24411pt x 79.2177pt.
- [13 <./fig/banco.jpeg>]
-<fig/hw_sync_1us.png, id=304, 427.5975pt x 197.98969pt>
+<fig/hw_sync_1us.png, id=326, 427.5975pt x 197.98969pt>
 File: fig/hw_sync_1us.png Graphic file (type png)
 <use fig/hw_sync_1us.png>
-Package pdftex.def Info: fig/hw_sync_1us.png  used on input line 594.
+Package pdftex.def Info: fig/hw_sync_1us.png  used on input line 620.
 (pdftex.def)             Requested size: 341.43307pt x 158.09286pt.
-<fig/hw_ppm_10us.png, id=306, 468.24937pt x 287.57437pt>
+ [15 <./fig/banco.jpeg> <./fig/hw_periodo.png>]
+<fig/hw_ppm_10us.png, id=335, 468.24937pt x 287.57437pt>
 File: fig/hw_ppm_10us.png Graphic file (type png)
 <use fig/hw_ppm_10us.png>
-Package pdftex.def Info: fig/hw_ppm_10us.png  used on input line 606.
+Package pdftex.def Info: fig/hw_ppm_10us.png  used on input line 632.
 (pdftex.def)             Requested size: 273.14923pt x 167.763pt.
-
-[14 <./fig/hw_periodo.png> <./fig/hw_sync_1us.png> <./fig/hw_ppm_10us.png>]
-<fig/hw_A_650us.png, id=318, 1174.3875pt x 335.00156pt>
+<fig/hw_A_650us.png, id=338, 1174.3875pt x 335.00156pt>
 File: fig/hw_A_650us.png Graphic file (type png)
 <use fig/hw_A_650us.png>
-Package pdftex.def Info: fig/hw_A_650us.png  used on input line 623.
+Package pdftex.def Info: fig/hw_A_650us.png  used on input line 649.
 (pdftex.def)             Requested size: 455.24411pt x 129.85776pt.
-<fig/hw_retardos.png, id=319, 2007.5pt x 1159.33125pt>
+ [16 <./fig/hw_sync_1us.png> <./fig/hw_ppm_10us.png>]
+<fig/hw_retardos.png, id=348, 2007.5pt x 1159.33125pt>
 File: fig/hw_retardos.png Graphic file (type png)
 <use fig/hw_retardos.png>
-Package pdftex.def Info: fig/hw_retardos.png  used on input line 630.
+Package pdftex.def Info: fig/hw_retardos.png  used on input line 656.
 (pdftex.def)             Requested size: 455.24411pt x 262.8903pt.
-
-[15 <./fig/hw_A_650us.png> <./fig/hw_retardos.png (PNG copy)>]
-<fig/hw_reset.png, id=329, 2007.5pt x 211.79124pt>
+ [17 <./fig/hw_A_650us.png> <./fig/hw_retardos.png (PNG copy)>]
+<fig/hw_reset.png, id=356, 2007.5pt x 211.79124pt>
 File: fig/hw_reset.png Graphic file (type png)
 <use fig/hw_reset.png>
-Package pdftex.def Info: fig/hw_reset.png  used on input line 670.
+Package pdftex.def Info: fig/hw_reset.png  used on input line 696.
 (pdftex.def)             Requested size: 455.24411pt x 48.02583pt.
- [16 <./fig/hw_reset.png>] (informe.aux
+ [18 <./fig/hw_reset.png>]
+(informe.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -924,33 +941,34 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 9B8924D7524B287DEFD71CAE5A8B552B;5267.
+(rerunfilecheck)             Checksum: 7A3D96B856E2C1C30363D7909FA8AA11;5383.
  ) 
 Here is how much of TeX's memory you used:
- 22117 strings out of 467870
- 421226 string characters out of 5418355
- 851680 words of memory out of 5000000
- 50408 multiletter control sequences out of 15000+600000
- 725294 words of font info for 220 fonts, out of 8000000 for 9000
+ 22143 strings out of 467870
+ 421899 string characters out of 5418355
+ 853206 words of memory out of 5000000
+ 50433 multiletter control sequences out of 15000+600000
+ 725045 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,15n,80p,1006b,1198s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb
 ><C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb
-><C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb>
-<C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><
-C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C
-:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/
-Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Us
-ers/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Us
-ers/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Us
-ers/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Us
-ers/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Us
-ers/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
-Output written on informe.pdf (17 pages, 1692153 bytes).
+><C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb>
+<C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><
+C:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C
+:/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:
+/Users/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
+sers/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Use
+rs/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Use
+rs/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Use
+rs/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Use
+rs/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Use
+rs/Mauro/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
+Output written on informe.pdf (19 pages, 1790131 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 66395 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 66418 words of extra memory for PDF output out of 74296 (max. 10000000)
 

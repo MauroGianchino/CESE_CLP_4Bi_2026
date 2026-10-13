@@ -21,7 +21,7 @@
 \newlabel{fig:cajanegra}{{1}{3}{Módulo \code {uart_top}}{figure.caption.3}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Puertos del top y asignación de pines.}}{3}{table.caption.4}\protected@file@percent }
 \newlabel{tab:pines}{{2}{3}{Puertos del top y asignación de pines}{table.caption.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Forma de onda de salida}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Forma de onda de salida}{4}{subsection.3.3}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Estructura de la trama. \texttt  {sync_pin} marca el comienzo; \texttt  {ppm_pin} vale 1 durante la ranura cuyo número es el valor del byte.}}{4}{figure.caption.5}\protected@file@percent }
 \newlabel{fig:trama}{{2}{4}{Estructura de la trama. \code {sync_pin} marca el comienzo; \code {ppm_pin} vale 1 durante la ranura cuyo número es el valor del byte}{figure.caption.5}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Arquitectura}{4}{section.4}\protected@file@percent }
@@ -54,46 +54,53 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.5}Testbench 5: \texttt  {uart\_top\_tb}}{11}{subsubsection.5.2.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Simulación del sistema completo (\texttt  {uart_top_tb}) durante \SI {10}{\milli \second }: los tres bytes enviados por \texttt  {rxd} producen tres pulsos de \texttt  {ppm}, cada uno en la trama siguiente y más desplazado respecto del \texttt  {sync} que la abre (marcado por los cursores, separados unos \SI {2,56}{\milli \second }). El clock se ve como una banda continua por la escala de tiempo.}}{11}{figure.caption.14}\protected@file@percent }
 \newlabel{fig:simtb5}{{8}{11}{Simulación del sistema completo (\code {uart_top_tb}) durante \SI {10}{\milli \second }: los tres bytes enviados por \code {rxd} producen tres pulsos de \code {ppm}, cada uno en la trama siguiente y más desplazado respecto del \code {sync} que la abre (marcado por los cursores, separados unos \SI {2,56}{\milli \second }). El clock se ve como una banda continua por la escala de tiempo}{figure.caption.14}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Síntesis e implementación}{11}{section.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Archivos}{11}{subsection.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Temporización}{12}{subsection.6.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Resumen de temporización después de la implementación (\SI {125}{\mega \hertz }).}}{12}{table.caption.15}\protected@file@percent }
-\newlabel{tab:timing}{{6}{12}{Resumen de temporización después de la implementación (\SI {125}{\mega \hertz })}{table.caption.15}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \emph  {Design Timing Summary} del diseño implementado.}}{12}{figure.caption.16}\protected@file@percent }
-\newlabel{fig:vivadotiming}{{9}{12}{\emph {Design Timing Summary} del diseño implementado}{figure.caption.16}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Uso de recursos}{12}{subsection.6.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Uso de recursos de la FPGA.}}{12}{table.7}\protected@file@percent }
-\newlabel{tab:recursos}{{7}{12}{Uso de recursos de la FPGA}{table.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Uso de recursos por módulo.}}{12}{table.8}\protected@file@percent }
-\newlabel{tab:recmod}{{8}{12}{Uso de recursos por módulo}{table.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Resumen de utilización de Vivado.}}{12}{figure.caption.17}\protected@file@percent }
-\newlabel{fig:vivadoutil}{{10}{12}{Resumen de utilización de Vivado}{figure.caption.17}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Verificación en hardware}{13}{section.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Montaje}{13}{subsection.7.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Conexiones al conector PMOD JA.}}{13}{table.caption.18}\protected@file@percent }
-\newlabel{tab:conex}{{9}{13}{Conexiones al conector PMOD JA}{table.caption.18}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Montaje de prueba: placa Arty Z7-10 configurada, con el adaptador USB-serie y el analizador lógico conectados al conector PMOD JA.}}{13}{figure.caption.19}\protected@file@percent }
-\newlabel{fig:banco}{{11}{13}{Montaje de prueba: placa Arty Z7-10 configurada, con el adaptador USB-serie y el analizador lógico conectados al conector PMOD JA}{figure.caption.19}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Mediciones}{13}{subsection.7.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.1}Período entre pulsos de sincronización}{13}{subsubsection.7.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Período entre pulsos de \texttt  {sync_pin}: \SI {2,56}{\milli \second }.}}{14}{figure.caption.20}\protected@file@percent }
-\newlabel{fig:hwperiodo}{{12}{14}{Período entre pulsos de \code {sync_pin}: \SI {2,56}{\milli \second }}{figure.caption.20}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.2}Ancho de pulso de sincronización}{14}{subsubsection.7.2.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Ancho del pulso de \texttt  {sync_pin}: \SI {1}{\micro \second }.}}{14}{figure.caption.21}\protected@file@percent }
-\newlabel{fig:hwsync}{{13}{14}{Ancho del pulso de \code {sync_pin}: \SI {1}{\micro \second }}{figure.caption.21}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.3}Ancho de pulso de dato}{14}{subsubsection.7.2.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Ancho del pulso de \texttt  {ppm_pin}: \SI {10}{\micro \second }.}}{14}{figure.caption.22}\protected@file@percent }
-\newlabel{fig:hwppm}{{14}{14}{Ancho del pulso de \code {ppm_pin}: \SI {10}{\micro \second }}{figure.caption.22}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.4}Envío de datos}{15}{subsubsection.7.2.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Carácter \texttt  {'A'} (ASCII 65): el pulso de \texttt  {ppm_pin} aparece \SI {649,785}{\micro \second } después del sync.}}{15}{figure.caption.23}\protected@file@percent }
-\newlabel{fig:hwA}{{15}{15}{Carácter \texttt {'A'} (ASCII 65): el pulso de \code {ppm_pin} aparece \SI {649,785}{\micro \second } después del sync}{figure.caption.23}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Retardo entre \texttt  {sync_pin} y \texttt  {ppm_pin} para tres caracteres: byte 32 (\SI {320}{\micro \second }), \texttt  {'0'} (\SI {480}{\micro \second }) y \texttt  {'1'} (\SI {490}{\micro \second }).}}{15}{figure.caption.24}\protected@file@percent }
-\newlabel{fig:hwretardos}{{16}{15}{Retardo entre \code {sync_pin} y \code {ppm_pin} para tres caracteres: byte 32 (\SI {320}{\micro \second }), \texttt {'0'} (\SI {480}{\micro \second }) y \texttt {'1'} (\SI {490}{\micro \second })}{figure.caption.24}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.5}Resumen de mediciones}{15}{subsubsection.7.2.5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Mediciones con el analizador lógico.}}{16}{table.caption.25}\protected@file@percent }
-\newlabel{tab:medidas}{{10}{16}{Mediciones con el analizador lógico}{table.caption.25}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Prueba del reset}{16}{subsection.7.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Prueba del reset (escala de segundos): los huecos de \texttt  {sync_pin} son los intervalos con BTN3 apretado.}}{16}{figure.caption.26}\protected@file@percent }
-\newlabel{fig:hwreset}{{17}{16}{Prueba del reset (escala de segundos): los huecos de \code {sync_pin} son los intervalos con BTN3 apretado}{figure.caption.26}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusiones}{16}{section.8}\protected@file@percent }
-\gdef \@abspage@last{17}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Simulaci\'on en ModelSim de los anchos de pulso: el pulso de sincronismo (\texttt  {sync\_pin}) dura \SI {1}{\micro \second } (cursores en \SI {2560,22}{\micro \second } y \SI {2561,22}{\micro \second }) y el pulso de dato (\texttt  {ppm\_pin}) dura \SI {10}{\micro \second }, una ranura (cursores en \SI {2610,22}{\micro \second } y \SI {2620,22}{\micro \second }).}}{12}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:simtb52}{{9}{12}{Simulaci\'on en ModelSim de los anchos de pulso: el pulso de sincronismo (\texttt {sync\_pin}) dura \SI {1}{\micro \second } (cursores en \SI {2560,22}{\micro \second } y \SI {2561,22}{\micro \second }) y el pulso de dato (\texttt {ppm\_pin}) dura \SI {10}{\micro \second }, una ranura (cursores en \SI {2610,22}{\micro \second } y \SI {2620,22}{\micro \second })}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Síntesis e implementación}{12}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Archivos}{12}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Esquemático}{12}{subsection.6.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Esquem\'atico de Vivado: nivel superior (\texttt  {uart_top}), con \texttt  {uart_ppm} como caja negra.}}{13}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:esqtop}{{10}{13}{Esquem\'atico de Vivado: nivel superior (\code {uart_top}), con \code {uart_ppm} como caja negra}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Esquem\'atico de Vivado: interior de \texttt  {uart_ppm}, con \texttt  {meta_harden}, \texttt  {uart_rx} y \texttt  {mod_ppm}.}}{13}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:esquart}{{11}{13}{Esquem\'atico de Vivado: interior de \code {uart_ppm}, con \code {meta_harden}, \code {uart_rx} y \code {mod_ppm}}{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Temporización}{13}{subsection.6.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Resumen de temporización después de la implementación (\SI {125}{\mega \hertz }).}}{13}{table.caption.18}\protected@file@percent }
+\newlabel{tab:timing}{{6}{13}{Resumen de temporización después de la implementación (\SI {125}{\mega \hertz })}{table.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces \emph  {Design Timing Summary} del diseño implementado.}}{13}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:vivadotiming}{{12}{13}{\emph {Design Timing Summary} del diseño implementado}{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Uso de recursos}{13}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Uso de recursos de la FPGA.}}{14}{table.7}\protected@file@percent }
+\newlabel{tab:recursos}{{7}{14}{Uso de recursos de la FPGA}{table.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Uso de recursos por módulo.}}{14}{table.8}\protected@file@percent }
+\newlabel{tab:recmod}{{8}{14}{Uso de recursos por módulo}{table.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Resumen de utilización de Vivado.}}{14}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:vivadoutil}{{13}{14}{Resumen de utilización de Vivado}{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Verificación en hardware}{14}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Montaje}{14}{subsection.7.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Conexiones al conector PMOD JA.}}{14}{table.caption.21}\protected@file@percent }
+\newlabel{tab:conex}{{9}{14}{Conexiones al conector PMOD JA}{table.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Montaje de prueba: placa Arty Z7-10 configurada, con el adaptador USB-serie y el analizador lógico conectados al conector PMOD JA.}}{15}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:banco}{{14}{15}{Montaje de prueba: placa Arty Z7-10 configurada, con el adaptador USB-serie y el analizador lógico conectados al conector PMOD JA}{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Mediciones}{15}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.1}Período entre pulsos de sincronización}{15}{subsubsection.7.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Período entre pulsos de \texttt  {sync_pin}: \SI {2,56}{\milli \second }.}}{15}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:hwperiodo}{{15}{15}{Período entre pulsos de \code {sync_pin}: \SI {2,56}{\milli \second }}{figure.caption.23}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.2}Ancho de pulso de sincronización}{15}{subsubsection.7.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Ancho del pulso de \texttt  {sync_pin}: \SI {1}{\micro \second }.}}{16}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:hwsync}{{16}{16}{Ancho del pulso de \code {sync_pin}: \SI {1}{\micro \second }}{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.3}Ancho de pulso de dato}{16}{subsubsection.7.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Ancho del pulso de \texttt  {ppm_pin}: \SI {10}{\micro \second }.}}{16}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:hwppm}{{17}{16}{Ancho del pulso de \code {ppm_pin}: \SI {10}{\micro \second }}{figure.caption.25}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.4}Envío de datos}{16}{subsubsection.7.2.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Carácter \texttt  {'A'} (ASCII 65): el pulso de \texttt  {ppm_pin} aparece \SI {649,785}{\micro \second } después del sync.}}{17}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:hwA}{{18}{17}{Carácter \texttt {'A'} (ASCII 65): el pulso de \code {ppm_pin} aparece \SI {649,785}{\micro \second } después del sync}{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Retardo entre \texttt  {sync_pin} y \texttt  {ppm_pin} para tres caracteres: byte 32 (\SI {320}{\micro \second }), \texttt  {'0'} (\SI {480}{\micro \second }) y \texttt  {'1'} (\SI {490}{\micro \second }).}}{17}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:hwretardos}{{19}{17}{Retardo entre \code {sync_pin} y \code {ppm_pin} para tres caracteres: byte 32 (\SI {320}{\micro \second }), \texttt {'0'} (\SI {480}{\micro \second }) y \texttt {'1'} (\SI {490}{\micro \second })}{figure.caption.27}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.5}Resumen de mediciones}{17}{subsubsection.7.2.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Mediciones con el analizador lógico.}}{17}{table.caption.28}\protected@file@percent }
+\newlabel{tab:medidas}{{10}{17}{Mediciones con el analizador lógico}{table.caption.28}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Prueba del reset}{18}{subsection.7.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Prueba del reset (escala de segundos): los huecos de \texttt  {sync_pin} son los intervalos con BTN3 apretado.}}{18}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:hwreset}{{20}{18}{Prueba del reset (escala de segundos): los huecos de \code {sync_pin} son los intervalos con BTN3 apretado}{figure.caption.29}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusiones}{18}{section.8}\protected@file@percent }
+\gdef \@abspage@last{19}

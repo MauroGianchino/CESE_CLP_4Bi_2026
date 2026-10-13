@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {3}Descripción del sistema}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Parámetros de diseño}{2}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Interfaz}{3}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Forma de onda de salida}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Forma de onda de salida}{4}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Arquitectura}{4}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Diagrama en bloques}{4}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Archivos y bloques}{5}{subsection.4.2}%
@@ -17,17 +17,18 @@
 \contentsline {subsubsection}{\numberline {5.2.3}Testbench 3: \texttt {mod\_ppm\_tb3\_primero}}{9}{subsubsection.5.2.3}%
 \contentsline {subsubsection}{\numberline {5.2.4}Testbench 4: \texttt {mod\_ppm\_tb4\_rdylargo}}{10}{subsubsection.5.2.4}%
 \contentsline {subsubsection}{\numberline {5.2.5}Testbench 5: \texttt {uart\_top\_tb}}{11}{subsubsection.5.2.5}%
-\contentsline {section}{\numberline {6}Síntesis e implementación}{11}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Archivos}{11}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Temporización}{12}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Uso de recursos}{12}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Verificación en hardware}{13}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Montaje}{13}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Mediciones}{13}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Período entre pulsos de sincronización}{13}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Ancho de pulso de sincronización}{14}{subsubsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.3}Ancho de pulso de dato}{14}{subsubsection.7.2.3}%
-\contentsline {subsubsection}{\numberline {7.2.4}Envío de datos}{15}{subsubsection.7.2.4}%
-\contentsline {subsubsection}{\numberline {7.2.5}Resumen de mediciones}{15}{subsubsection.7.2.5}%
-\contentsline {subsection}{\numberline {7.3}Prueba del reset}{16}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Conclusiones}{16}{section.8}%
+\contentsline {section}{\numberline {6}Síntesis e implementación}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Archivos}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Esquemático}{12}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Temporización}{13}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Uso de recursos}{13}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Verificación en hardware}{14}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Montaje}{14}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Mediciones}{15}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Período entre pulsos de sincronización}{15}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Ancho de pulso de sincronización}{15}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Ancho de pulso de dato}{16}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}Envío de datos}{16}{subsubsection.7.2.4}%
+\contentsline {subsubsection}{\numberline {7.2.5}Resumen de mediciones}{17}{subsubsection.7.2.5}%
+\contentsline {subsection}{\numberline {7.3}Prueba del reset}{18}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Conclusiones}{18}{section.8}%

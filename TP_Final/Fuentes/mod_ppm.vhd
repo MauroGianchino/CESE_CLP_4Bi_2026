@@ -1,14 +1,11 @@
 -------------------------------------------------------------------------------
 --  Module   : mod_ppm.vhd
---  Parent   : top del TP
---  Children : None
 --
 --  Description:
 --     Modulador PPM. Recibe un byte (0 a 255) del receptor UART y genera una
 --     trama periodica de NUM_SLOTS ranuras de CYCLES_PER_SLOT ciclos cada una.
 --     ppm_o vale '1' durante la ranura cuyo numero es igual al byte recibido
---     (ancho de pulso w = ranura). No hay ranura de guarda: el byte 255 usa
---     la ultima ranura de la trama.
+--     (ancho de pulso w = ranura).
 --     Cada byte genera un unico pulso: si al comenzar una trama no hay un byte
 --     nuevo esperando, la trama va vacia (sin pulso).
 --     sync_o sube al comienzo de cada trama (haya pulso o no) y se mantiene

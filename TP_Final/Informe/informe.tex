@@ -112,8 +112,7 @@ Se presenta la implementación en una FPGA de un modulador por posición de puls
 El sistema recibe bytes por un puerto UART y, por cada uno, genera un único pulso cuya posición dentro de
 una trama periódica de \SI{2,56}{\milli\second} codifica su valor (0 a 255), junto con una señal de
 sincronismo que marca el comienzo de cada trama. El diseño se simuló con ModelSim, se sintetizó e
-implementó con Vivado para la placa Arty Z7-10 usando menos del \SI{0,4}{\percent} de la lógica disponible
-y se verificó en hardware con un analizador lógico.
+implementó con Vivado para la placa Arty Z7-10 y se verificó en hardware con un analizador lógico.
 \end{abstract}
 
 {\singlespacing\tableofcontents}
@@ -134,12 +133,16 @@ un adaptador USB-serie.
 % =============================== 2. PPM ===============================
 \section{Modulación por posición de pulso}
 
-En la modulación PPM la información se codifica en el instante en que aparece un pulso dentro de una ventana de
-tiempo, llamada trama, y no en su amplitud ni en su ancho: el pulso tiene siempre la misma amplitud y el mismo ancho.
-La trama se divide en $M$ ranuras de igual duración (ancho) $\tau$ y el dato $d$ elige la ranura en la que se coloca el pulso. La duración de la trama es
+En la modulación PPM la información no se codifica en la amplitud ni en el ancho del pulso, que son siempre los mismos, sino en la posición temporal en que este aparece. Para ello se divide el tiempo en tramas de duración $T$, y cada trama en $M$ ranuras iguales de duración $\tau$; el dato $d$ determina en cuál de ellas se coloca el pulso. La duración de la trama resulta entonces
 
 \begin{equation}
   T = M\,\tau .
+\end{equation}
+
+El dato $d \in \{0, 1, \dots, M-1\}$ determina la ranura en la que se coloca el pulso, es decir, su posición dentro de la trama medida desde el inicio:
+
+\begin{equation}
+  t_d = d\,\tau .
 \end{equation}
 
 
@@ -175,7 +178,7 @@ lógico de \SI{24}{\mega\hertz}, lo que permite medir la posición con facilidad
 
 \begin{itemize}
   \item \textbf{Un pulso por byte.} Si al comenzar una trama no hay un byte nuevo esperando, la trama va vacía (sin pulso).
-  \item \textbf{Carga al inicio de trama.} El byte recibido durante una trama se guarda y recién se usa en la trama siguiente, de modo que ninguna trama tenga un pulso a medias ni dos pulsos.
+  \item \textbf{Byte previo al inicio de trama.} El byte recibido durante una trama se guarda y recién se usa en la trama siguiente, de modo que ninguna trama tenga un pulso a medias ni dos pulsos.
   \item \textbf{El primero gana.} Si llegan varios bytes durante una trama, se modula el primero y se descartan los demás.
   \item \textbf{Sin ranura de seguridad.} El byte 255 usa la última ranura. Si en tramas consecutivas se usaran el 255 y el 0, los dos pulsos quedarían pegados y se verían como uno solo.
 \end{itemize}
@@ -246,7 +249,7 @@ byte recibido en el pulso PPM.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\linewidth]{fig/diagrama_bloques.png}
+  \includegraphics[width=0.75\linewidth]{fig/diagrama_bloques.png}
   \caption{Diagrama en bloques y archivos que contiene cada nivel. En azul, los archivos de la Práctica~2 sin cambios; en rojo, los propios.}
   \label{fig:bloques}
 \end{figure}
@@ -353,9 +356,7 @@ receptor UART hasta el pulso de salida. En todos los casos el resultado fue el e
 \newpage
 \subsubsection{Testbench 1: \texttt{mod\_ppm\_tb1\_basico}}
 
-Este testbench envía un único byte de valor 10 a un \code{mod_ppm} con 12 ranuras de 4 ciclos, o sea tramas de
-\SI{4800}{\nano\second}. En la figura~\ref{fig:simtb1} se ve que el pulso de \code{rdy} que entrega el byte cae
-durante la primera trama, que va vacía, y que el pulso de \code{ppm} aparece recién en la trama siguiente. 
+Este testbench env\'ia un \'unico byte de valor 10 a un \code{mod_ppm} con 12 ranuras de 4 ciclos de reloj, con un per\'iodo de \SI{100}{\nano\second} (\SI{10}{\mega\hertz}). Con estos par\'ametros reducidos el pulso de sincronismo dura \SI{200}{\nano\second} (2 ciclos), el pulso de dato ocupa una ranura de \SI{400}{\nano\second} (4 ciclos) y la trama completa dura \SI{4800}{\nano\second}. En la figura~\ref{fig:simtb1} se ve que el pulso de \code{rdy} que entrega el byte ocurre durante la primera trama, que va vac\'ia, y que el pulso de \code{ppm} aparece reci\'en en la trama siguiente.
 
 \begin{figure}[H]
   \centering
@@ -402,8 +403,7 @@ cada trama dura \SI{3200}{\nano\second}, como indican los cursores sobre los \co
 \newpage
 \subsubsection{Testbench 4: \texttt{mod\_ppm\_tb4\_rdylargo}}
 
-En este caso el byte 3 llega con \code{rdy} en alto durante \SI{8,7}{\micro\second}, que es la duración de un bit
-del UART a \num{115200} baudios, y en este testbench abarca tres tramas (figura~\ref{fig:simtb4}). A pesar de eso, \code{ppm} produce un
+En este caso el byte 3 llega con \code{rdy} en alto durante \SI{8,7}{\micro\second},y en este testbench abarca casi tres tramas (figura~\ref{fig:simtb4}). A pesar de eso, \code{ppm} produce un
 único pulso, en la ranura 3 de la segunda trama, y la tercera trama va vacía aunque \code{rdy} siga en alto
 durante buena parte de ella. Esto muestra que el byte se captura solo en el flanco de subida de \code{rdy}, y no
 mientras la señal permanece activa, lo que evita repetir el mismo pulso en las tramas siguientes.
@@ -423,13 +423,22 @@ serie de \num{115200} baudios, por la que se envían tres bytes sucesivos, cada 
 8 bits de datos (primero el menos significativo) y el bit de stop. Los bytes son el 5, el 65 (\texttt{'A'}) y el
 122 (\texttt{'z'}), enviados a partir de los \SI{100}{\micro\second}, \SI{3000}{\micro\second} y
 \SI{6000}{\micro\second}, de modo que cada uno llega durante una trama distinta, cuando el anterior ya se está
-modulando. Como los tres valores están bien separados, en la figura~\ref{fig:simtb5} se ve cómo el pulso se desplaza hacia la derecha de una trama a la siguiente. Para una mejor apreciación, es recomendable ejecutar la simulación y ampliar (zoom) las zonas de interés.
+modulando. Como los tres valores están bien separados, en la figura~\ref{fig:simtb5} se ve cómo el pulso se desplaza hacia la derecha de una trama a la siguiente.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.95\linewidth]{fig/sim_tb5.png}
   \caption{Simulación del sistema completo (\code{uart_top_tb}) durante \SI{10}{\milli\second}: los tres bytes enviados por \code{rxd} producen tres pulsos de \code{ppm}, cada uno en la trama siguiente y más desplazado respecto del \code{sync} que la abre (marcado por los cursores, separados unos \SI{2,56}{\milli\second}). El clock se ve como una banda continua por la escala de tiempo.}
   \label{fig:simtb5}
+\end{figure}
+
+En la figura~\ref{fig:simtb52} se amplía la simulación alrededor del segundo flanco de sincronismo para medir los anchos de los pulsos. Se verifica que el pulso de sincronismo dura \SI{1}{\micro\second} y que el pulso de dato ocupa exactamente una ranura de \SI{10}{\micro\second}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\linewidth]{fig/sim_tb5_2.png}
+\caption{Simulaci\'on en ModelSim de los anchos de pulso: el pulso de sincronismo (\texttt{sync\_pin}) dura \SI{1}{\micro\second} (cursores en \SI{2560,22}{\micro\second} y \SI{2561,22}{\micro\second}) y el pulso de dato (\texttt{ppm\_pin}) dura \SI{10}{\micro\second}, una ranura (cursores en \SI{2610,22}{\micro\second} y \SI{2620,22}{\micro\second}).}
+  \label{fig:simtb52}
 \end{figure}
 
 
@@ -439,13 +448,30 @@ modulando. Como los tres valores están bien separados, en la figura~\ref{fig:si
 
 \subsection{Archivos}
 
-Se creó un proyecto de Vivado 2018.3 para la Arty Z7-10 con las siete fuentes VHDL y dos archivos de
-restricciones:
+Se creó un proyecto de Vivado 2018.3 para la Arty Z7-10 con las siete fuentes VHDL y dos archivos .xdc:
 
 \begin{itemize}
   \item \code{uart_ppm_pins_ArtyZ7.xdc} asigna cada puerto del top a su pin.
-  \item \code{uart_ppm_timing_ArtyZ7.xdc} contiene una sola restricción, la definición del clock de \SI{125}{\mega\hertz}.
+  \item \code{uart_ppm_timing_ArtyZ7.xdc} contiene la definición del clock de \SI{125}{\mega\hertz}.
 \end{itemize}
+
+\subsection{Esquemático}
+
+El esquem\'atico generado por Vivado tras la elaboraci\'on del dise\~no se muestra en dos niveles. En la figura~\ref{fig:esqtop} se ve el nivel superior, donde \code{uart_ppm} aparece como una caja con las tres entradas (\code{clk_pin}, \code{rst_pin} y \code{rxd_pin}) y las dos salidas (\code{ppm_pin} y \code{sync_pin}). En la figura~\ref{fig:esquart} se expande ese m\'odulo: el reset pasa por \code{meta_harden}, el receptor \code{uart_rx} convierte la l\'inea serie en el byte \code{rx_data} junto con su indicador \code{rx_data_rdy}, y ambos alimentan a \code{mod_ppm}, que genera las dos salidas.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\linewidth]{fig/img1_bloque_ppm.png}
+  \caption{Esquem\'atico de Vivado: nivel superior (\code{uart_top}), con \code{uart_ppm} como caja negra.}
+  \label{fig:esqtop}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{fig/img2_bloques_ppm.png}
+  \caption{Esquem\'atico de Vivado: interior de \code{uart_ppm}, con \code{meta_harden}, \code{uart_rx} y \code{mod_ppm}.}
+  \label{fig:esquart}
+\end{figure}
 
 \subsection{Temporización}
 
@@ -677,7 +703,6 @@ caracteres tecleados y ninguna cae dentro de un reset.
 
 Se implementó en la Arty Z7-10 un modulador PPM que convierte cada byte recibido por UART en la posición de un
 pulso dentro de una trama de \SI{2,56}{\milli\second}, con una salida de sincronismo para medirla. El diseño
-ocupa menos del \SI{0,4}{\percent} de la lógica de la FPGA, cumple la temporización a \SI{125}{\mega\hertz} con
-\SI{3,9}{\nano\second} de margen, y las mediciones en hardware coinciden con los valores teóricos
-(retardo $= d \times \SI{10}{\micro\second}$) con diferencias menores que \SI{0,25}{\micro\second}.
+ocupa muy pocos recursos de la FPGA, cumple la temporización a \SI{125}{\mega\hertz} con
+\SI{3,9}{\nano\second} de margen, y las mediciones en hardware coinciden con los valores teóricos con diferencias menores que \SI{0,25}{\micro\second}.
 \end{document}
